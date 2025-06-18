@@ -1,0 +1,8 @@
+hostname: imageforge-test
+packages:
+  - vim
+  - curl
+  - git
+users:
+  - name: devuser
+    ssh_key: ssh-rsa AAAAB3...

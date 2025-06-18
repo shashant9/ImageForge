@@ -1,0 +1,16 @@
+{
+  "builders": [{
+    "type": "qemu",
+    "iso_url": "http://mirror.centos.org/centos/8-stream/isos/x86_64/CentOS-Stream-8-x86_64-20210603-dvd1.iso",
+    "iso_checksum": "sha256:PLACEHOLDER_FOR_CHECKSUM",
+    "output_directory": "output_centos8",
+    "shutdown_command": "shutdown -P now",
+    "boot_wait": "5s",
+    "boot_command": [
+      "<tab> inst.ks=hd:fd0:/centos8.ks<enter><wait>"
+    ],
+    "disk_size": 40960,
+    "format": "qcow2",
+    "headless": true
+  }]
+}
