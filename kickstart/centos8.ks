@@ -3,7 +3,7 @@ install
 lang en_US.UTF-8
 keyboard us
 timezone Asia/Kolkata --isUtc
-rootpw --plaintext rootpassword
+rootpw --plaintext centos
 authconfig --enableshadow --passalgo=sha512
 selinux --disabled
 firewall --disabled
