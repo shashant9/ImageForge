@@ -13,7 +13,7 @@ A custom Linux ISO builder using Kickstart and Packer for CentOS 8 Stream.
 
 1. Clone this repo:
 ```bash
-git clone https://github.com/yourusername/ImageForge.git
+git clone https://github.com/shashant9/ImageForge.git
 cd ImageForge/scripts
 chmod +x build_iso.sh
 ./build_iso.sh
@@ -24,4 +24,4 @@ chmod +x build_iso.sh
 ---
 
 This is the first working version for local ISO creation using a Kickstart file.
-# ImageForge
+
